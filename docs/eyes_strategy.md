@@ -11,7 +11,33 @@ the strategy around the **Eyes FootPrint** indicator (`indicators/eyes_footprint
 | 23 Oct 2026 | https://www.youtube.com/watch?v=A3-hEpzHkmk | 2:34 | `transcripts/notes_2026-10-23_A3-hEpzHkmk.md` |
 | 24 Oct 2026 (Saturday) | https://www.youtube.com/watch?v=mfVj251fsQc | 3:52 | `transcripts/notes_2026-10-24_mfVj251fsQc.md` + full transcript |
 
-The 25 Oct live was skipped because it had no captions yet.
+| **25 Oct 2026 (Sunday)** | https://www.youtube.com/watch?v=SshdZH9tj3Q | 3:01 | `transcripts/notes_2026-10-25_SshdZH9tj3Q.md`: **Eyes FootPrint appears** (see §0) |
+
+The 25 Oct live was added later. It had no YouTube captions, so its speech comes from a rough local Whisper
+transcription; its screen checks are reliable.
+
+---
+
+## 0. Update (25 Oct live): Eyes FootPrint in use
+
+In the 25 Oct live he runs **Eyes FootPrint** on BTC/ETH 1m charts (paper account). Full details are in
+`transcripts/notes_2026-10-25_SshdZH9tj3Q.md`.
+
+**Settings (on screen at 2:48:06, legend at 25:05):**
+- Everything is default (Lookback 50, Size Offset 0, all lines on, bubbles on, Outer Volume Mass off, Inner Delta on, labels on),
+  **except Label Size**: Normal or Large instead of Small.
+
+**How he reads it, from the screen plus the few clear spoken lines:**
+- **Red bubble at the top / sellers' line → sell. Green bubble at the bottom / buyers' line → buy** (2:11:00; trades at
+  36:24 BTC long from a green bubble at the low, 1:27:47 ETH short after red bubbles at the high).
+- A bubble of the **opposite colour after a move = that side trapped** (rough audio 2:10:35; needs confirmation).
+- He says he'll give the indicator away **free** via Telegram, and that the proper lesson on reading bubbles starts the next
+  day. **No SL/TP rule tied to the bubbles was stated.**
+
+**Caution from the code** (details in the notes and §8):
+- On 1m, every new 50-bar high or low creates a bubble at the 100% or 0% line.
+- The bubble colour is just that 1m candle's colour times its volume.
+- So "red bubble at the top" ≈ "a red candle touched the range high", not measured seller pressure.
 
 **How this was made.** I read the YouTube Hindi auto-captions for each live, then checked his screen at the key moments
 (1080p frames, list in §9). Rules below come **only from what he says or shows**. Anything he doesn't explain is marked **Unclear**.
@@ -25,7 +51,7 @@ Times are `h:mm:ss` into the video.
 
 ---
 
-## 1. Main finding: Eyes FootPrint does not appear in these lives
+## 1. Finding for the 20–24 Oct lives: Eyes FootPrint does not appear in them
 
 - **He never names "Eyes FootPrint"** in any of the five transcripts.
 - **None of the 14 frames I checked show it.** No five quartile lines, no delta bubbles. His charts are TradingView
@@ -327,5 +353,5 @@ Sources: 20 Oct 7:09; 21 Oct 10:00–10:58; 22 Oct 17:58–19:38.
 - **Line "timing" / his "own maths":** 24 Oct 2:18:39–2:20:50.
 - **Hedging / recycle-rebalance:** not explained.
 - **Session times and news rules:** none given.
-- **What Eyes FootPrint is for:** never discussed in these five lives. Might be covered in his regular videos or the paid
-  group's lectures, which weren't part of this study.
+- **What Eyes FootPrint is for:** not discussed 20–24 Oct. On 25 Oct he uses it (§0) but says the proper lesson on reading
+  the bubbles (meaning of the numbers, size, SL/TP) comes in a later live.
